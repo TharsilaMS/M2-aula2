@@ -8,8 +8,8 @@ console.log(` Sua idade é ${idade} anos`)
 
 const musicas = ['Shirt', 'Cruel Summer', 'Into you'];
 console.log(musicas)
-musica.push('is')
-musica.push('tt')
+musicas.push('7 rings')
+musicas.push('Everyday')
 for (musica of musicas) {
   console.log(musicas);
 }
