@@ -6,9 +6,10 @@ const dataAtual = 2023;
 const idade = dataAtual- dataNc;
 console.log(` Sua idade é ${idade} anos`)
 
-const musica = ['Shirt', 'Cruel Summer', 'Into you'];
-console.log(musica)
-for (musicas of musica) {
-  musica.push('tt')
+const musicas = ['Shirt', 'Cruel Summer', 'Into you'];
+console.log(musicas)
+musica.push('is')
+musica.push('tt')
+for (musica of musicas) {
+  console.log(musicas);
 }
-console.log(musica)
