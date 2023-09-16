@@ -1,8 +1,10 @@
 const filmes = ['A freira', 'corra', 'O pacto'];
 console.log(`O primeiro filme é ${filmes[0]}`)
 
+
 const dataNc = 2003;
-const dataAtual = 2023;
+const dataAtual = new Date().getFullYear();
+
 const idade = dataAtual- dataNc;
 console.log(` Sua idade é ${idade} anos`)
 
